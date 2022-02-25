@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+.inicial{
+    background-color: #121212;
+    margin-bottom: -20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#C4C4C4;
+}
+
+.titulo{
+    color: #00D2DF;
+    font-size: 18px;
+    margin-left: 180px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 160px;
+}
+
+li{
+    display: flex;
+    padding-right: 62px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #00D2DF;
+    transition: 1.5s;
+}
+
+.inicial hr{
+    width: 1080px;
+    height: 0px;
+    border: 2px solid #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.tela_inicial{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulos{
+    margin-top: 150px;
+    margin-left: 180px;
+    line-height: 5px;
+}
+
+.titulos p{
+    font-size: 20px;
+    color: white;
+}
+
+.titulos h1{
+    font-size: 55px;
+    color: #00D2DF;
+}
+
+.titulos h1::before{
+    content: '';
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    width: 350px;
+    height: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #7DC7dE;
+}
+
+#descricao-title{
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+button{
+    width: 160px;
+    height: 45px;
+    background-color: #121212;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-left:50px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button img{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -40px;
+}
+
+.botao-linkedin{
+    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
+    margin-right: 20px;
+}
+
+.botao-linkedin:hover{
+    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
+    transition: 1s;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.botao-github{
+    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
+}
+
+.botao-github:hover{
+    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
+    transition: 1s;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.sobre-mim{
+    display: flex;
+    color: white;
+    height: 550px;
+    background-color: #151515;
+}
+
+.conteudo-sobre{
+    margin-left: 183px;
+    margin-top: 80px;
+    line-height: 29px;
+}
+
+.conteudo-sobre h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.conteudo-sobre h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.conteudo-sobre p{
+    width: 600px;
+    font-weight: 500;
+    text-align: justify;
+    color:#C4C4C4;
+}
+
+.conteudo-sobre span{
+    color: #00D2DF;
+}
+
+.conteudo-sobre::after{
+    content: 'ABOUT';
+    position: absolute;
+    bottom: 90%;
+    left: 110%;
+    font-weight: 800;
+    font-size: 12em;
+    color: rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+}
+
+.experiencia{
+    height: 580px;
+    background-color: #121212;
+    color: white;
+}
+
+details{
+    margin-left: 180px;
+    padding-top: 100px;
+}
+
+details summary{
+    display: flex;
+}
+
+summary {
+    width: 200px;
+}
+
+details p {
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
