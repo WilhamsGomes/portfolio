@@ -9,25 +9,27 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 </head>
 <body>
 
-    <section class="inicial">
+    <section id="inicial">
         <nav>
             <p class="titulo">Portfólio</p>
             <ul>
-                <li>Home</li>
-                <li>Sobre mim</li>
-                <li>Experiência</li>
+                <a href="#"><li>Home</li> </a>
+                <a href="#sobre-mim"> <li>Sobre mim</li> </a> 
+                <a href="#experiencia"> <li>Experiência</li> </a>
                 <li>Projetos</li>
             </ul>
         </nav>
         <hr>
+
         <div class="tela_inicial">
             <div class="titulos" data-aos="fade-right" data-aos-duration="3000">
                 <p>OLÁ, EU SOU</p>
-                <h1>WILHAMS GOMES</h1>
-                
+                <h1 id="typed"></h1>
                 <p id="descricao-title">Desenvolvedor Front-end focado em criações de aplicações web e mobile. Fascinado por desafios e resoluções de problemáticas do dia a dia através do auxílio da tecnologia.</p>
                 
                     <a href="https://linkedin.com/in/wilhamsgomes" target="_blank"> 
@@ -42,7 +44,7 @@
         </div>
     </section>
 
-    <section class="sobre-mim">
+    <section id="sobre-mim">
         <div class="conteudo-sobre" data-aos="fade-left" data-aos-duration="3000">
             <h1>SOBRE MIM</h1>
            
@@ -53,39 +55,67 @@
             <div>
                 <a href="./img/CV - Wilhams Gomes..pdf" target="_blank"> 
                 <button class="botao-linkedin"> <img src="./img/download-cloud.png"/> Currículo </button> 
-            </a>
+                </a>
 
-            <a href="mailto:wilhamsgoomes@gmail.com" target="_blank"> 
-                <button class="botao-github"> <img src="./img/mail.png"/> E-mail </button>
-            </a>
+                <a href="mailto:wilhamsgoomes@gmail.com" target="_blank"> 
+                    <button class="botao-github"> <img src="./img/mail.png"/> E-mail </button>
+                </a>
             </div>
-            
         </div>
+        <div id="photo"  data-aos="zoom-in" data-aos-duration="3000">
+            <img src="./img/Camada 0.png" alt="Wilhams"/>
+        </div>
+        
     </section>
 
-    <section class="experiencia">
+    <section id="experiencia">
         
-            <details>
-                <summary>Testando</summary>
-                <p>Conteudo massa</p>
-            </details>
-            <details>
-                <summary>Testando</summary>
-                <p>Conteudo massa</p>
-            </details>
-            <details>
-                <summary>Testando</summary>
-                <p>Conteudo massa</p>
-            </details>
-            <details>
-                <summary>Testando</summary>
-                <p>Conteudo massa</p>
-            </details>
-        
+        <div class="education" data-aos="fade-left" data-aos-duration="3000">
+            <div>
+                <h1>Educação</h1>
+                <div class="education-01">
+                    <p class="date">Fevereiro 2018 - Dezembro 2020</p>
+                    <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                    <p class="school">ETE Miguel Batista</p> 
+                </div>
+
+                <div class="education-02">
+                    <p class="date">Agosto 2021 - Julho 2024</p>
+                    <h3>Grad. Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="school">IFPE - Paulista</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="jobs" data-aos="fade-left" data-aos-duration="3000">
+            <div>
+                <h1>Experiências</h1>
+                <div class="education-01">
+                    <p class="date">Julho 2019 - Setembro de 2019</p>
+                    <h3>Desenvolvedor Back-end</h3>
+                    <p class="school">Trabalho voluntário | IV Sarau da ETEMB</p> 
+                </div>
+
+                <div class="education-02">
+                    <p class="date">Julho 2021 - Até o momento</p>
+                    <h3>Designer gráfico</h3>
+                    <p class="school">Giz Midia | Freelancer</p> 
+                </div>   
+            </div>
+        </div>
+
+        <div class="jobs">
+
+        </div>
+           
     </section>
     
+
+
     <script>
         AOS.init();
     </script>
+
+    <script src="./script.js"></script>
 </body>
 </html>

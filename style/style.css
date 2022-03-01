@@ -6,16 +6,21 @@ body{
     padding: 0;
 }
 
-.inicial{
+#inicial{
     background-color: #121212;
     margin-bottom: -20px;
+    overflow: hidden;
 }
 
 nav{
+    z-index: 2;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color:#C4C4C4;
+    background-color: #121212;
+    width: 100%;
 }
 
 .titulo{
@@ -44,7 +49,7 @@ li:hover{
     transition: 1.5s;
 }
 
-.inicial hr{
+#inicial hr{
     width: 1080px;
     height: 0px;
     border: 2px solid #151515;
@@ -69,6 +74,7 @@ li:hover{
 }
 
 .titulos h1{
+    height: 10px;
     font-size: 55px;
     color: #00D2DF;
 }
@@ -140,11 +146,32 @@ button img{
     transform: scaleX(1);
 }
 
-.sobre-mim{
+#sobre-mim{
+    overflow: hidden;
     display: flex;
     color: white;
     height: 550px;
     background-color: #151515;
+}
+
+#photo{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 2em #6518B4;
+}
+
+#photo img{
+    width: 300px;
+    height: 300px;
+}
+
+#photo img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1.5s;
 }
 
 .conteudo-sobre{
@@ -185,27 +212,76 @@ button img{
     opacity: 0.7;
 }
 
-.experiencia{
-    height: 580px;
+#experiencia{
+    display: flex;
+    margin-top: -20px;
+    height: 540px;
     background-color: #121212;
     color: white;
+    overflow: hidden;
 }
 
-details{
-    margin-left: 180px;
-    padding-top: 100px;
+.education{
+    padding-top: 80px;
+    margin-left: 183px;
 }
 
-details summary{
-    display: flex;
+.education h1{
+    margin-bottom: 50px;
 }
 
-summary {
-    width: 200px;
+.education h3{
+    color: #00D2DF;
 }
 
-details p {
+.date{
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.school{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    z-index: 5;
+}
+
+.education-01, .education-02{
+    margin-bottom: 60px;
+}
+
+#experiencia::before{
+    content: 'JOBS';
+    position: absolute;
+    top: 150%;
+    left: 65%;
+    font-weight: 800;
+    font-size: 12em; 
+    color: #151515;
+    opacity: 0.7;
+}
+
+.jobs{
+    padding-top: 80px;
     margin-left: 250px;
-    margin-top: -10px;
 }
 
+.jobs h1{
+    margin-bottom: 50px;
+}
+
+.jobs h3{
+    color: #00D2DF;
+}
+
+.education::before{
+    content: 'EDUCATION';
+    position: absolute;
+    top: 75%;
+    left: -40%;
+    font-weight: 800;
+    font-size: 8em; 
+    color: #151515;
+    opacity: 0.7;
+}
