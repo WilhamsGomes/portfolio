@@ -5,3 +5,7 @@ var typed = new Typed('#typed', {
       typeSpeed: 150,
       cursorChar: '',
 });
+
+$('input').on('change', function() {
+  $('body').toggleClass('blue');
+});
