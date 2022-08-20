@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Wilhams Gomes</title>
+    <title>Portfólio - Wilhams Gomes | Desenvolvedor de Software</title>
+    <meta name="description" content="Portfólio de Wilhams Gomes, programador e criador de site.">
+    <meta name="keywords" content="Desenvolvedor de Software, Programador, Freelancer, HTML, CSS, JS, Criador de site">
+    <meta name="author" content="Wilhams Gomes">
+
     <link rel="stylesheet" type="text/css" href="./style/style.css" />
     <link rel="stylesheet" type="text/css" href="./style/carrossel.css" />
+    <link rel="stylesheet" type="text/css" href="./style/barra.css" />
     <link rel="icon" type="image/x-icon" href="./img/Logo-Will.png">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -22,179 +27,232 @@
 </head>
 
 <body>
+    <main>
+        
+        <section id="inicial">
+            <header>
+                <nav>
+                    <p class="titulo">Portfólio</p>
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#sobre-mim">
+                            <li>Sobre mim</li>
+                        </a>
+                        <a href="#experiencia">
+                            <li>Experiência</li>
+                        </a>
+                        <a href="#container">
+                            <li>Projetos</li>
+                        </a>
+                    </ul>
+                </nav>
+                <hr>
+            </header>
+            <img class="img-flutuante" src="./img/59118.png">
+            <div class="tela_inicial">
+                <div class="titulos" data-aos="fade-right" data-aos-duration="3000">
+                    <p>OLÁ, EU SOU</p>
+                    <h1 id="typed"></h1>
+                    <p id="descricao-title">Desenvolvedor de Software focado em criações de aplicações web.
+                        Fascinado por desafios e resoluções de problemáticas do dia a dia através do auxílio da
+                        tecnologia.
+                    </p>
 
-    <section id="inicial">
-        <nav>
-            <p class="titulo">Portfólio</p>
-            <ul>
-                <a href="#">
-                    <li>Home</li>
-                </a>
-                <a href="#sobre-mim">
-                    <li>Sobre mim</li>
-                </a>
-                <a href="#experiencia">
-                    <li>Experiência</li>
-                </a>
-                <a href="#container">
-                    <li>Projetos</li>
-                </a>
-            </ul>
-        </nav>
-        <hr>
+                    <a href="https://linkedin.com/in/wilhamsgomes" target="_blank">
+                        <button class="botao-linkedin"> <img src="./img/linkedin.png" /> LinkedIn </button>
+                    </a>
 
-        <div class="tela_inicial">
-            <div class="titulos" data-aos="fade-right" data-aos-duration="3000">
-                <p>OLÁ, EU SOU</p>
-                <h1 id="typed"></h1>
-                <p id="descricao-title">Desenvolvedor Front-end focado em criações de aplicações web e mobile. Fascinado
-                    por desafios e resoluções de problemáticas do dia a dia através do auxílio da tecnologia.</p>
-
-                <a href="https://linkedin.com/in/wilhamsgomes" target="_blank">
-                    <button class="botao-linkedin"> <img src="./img/linkedin.png" /> LinkedIn </button>
-                </a>
-
-                <a href="https://github.com/WilhamsGomes" target="_blank">
-                    <button class="botao-github"> <img src="./img/github.png" /> GitHub</button>
-                </a>
-            </div>
-            <img src="./img/LooperBG.png" alt="espiral" />
-        </div>
-    </section>
-
-    <section id="sobre-mim">
-        <div class="conteudo-sobre" data-aos="fade-left" data-aos-duration="3000">
-            <h1>SOBRE MIM</h1>
-
-            <p>Sou <span>Wilhams Gomes</span>, tenho 19 anos e moro em Recife-PE. <span>Desenvolvedor Front-End </span>,
-                apaixonado por tecnologia, principalmente o desenvolvimento de soluções. Gosto de aprender cada vez mais
-                sobre a área, <span>desafios</span> que me tiram da minha zona de conforto são os melhores.</p>
-
-            <p> <span>Possuo experiência no desenvolvimento de aplicações</span> utilizando diferentes tecnologias,
-                dentre elas Java Script, Java, Python e Banco de Dados.</p>
-
-            <div>
-                <a href="./img/CV - Wilhams Gomes..pdf" target="_blank">
-                    <button class="botao-linkedin"> <img src="./img/download-cloud.png" /> Currículo </button>
-                </a>
-
-                <a href="mailto:wilhamsgoomes@gmail.com" target="_blank">
-                    <button class="botao-github"> <img src="./img/mail.png" /> E-mail </button>
-                </a>
-            </div>
-        </div>
-        <div id="photo" data-aos="zoom-in" data-aos-duration="3000">
-            <img src="./img/Camada 0.png" alt="Wilhams" />
-        </div>
-
-    </section>
-
-    <section id="experiencia">
-
-        <div class="education" data-aos="fade-left" data-aos-duration="3000">
-            <div>
-                <h1>Educação</h1>
-                <div class="education-01">
-                    <p class="date">Fevereiro 2018 - Dezembro 2020</p>
-                    <h3>Técnico em Desenvolvimento de Sistemas</h3>
-                    <p class="school">ETE Miguel Batista</p>
+                    <a href="https://github.com/WilhamsGomes" target="_blank">
+                        <button class="botao-github"> <img src="./img/github.png" /> GitHub</button>
+                    </a>
                 </div>
+                
+                <img class="img-modelo" data-aos="fade-left" data-aos-duration="3000" src="./img/JEOO4307.png" alt="espiral" />
+            </div>
+            <img class="img-flutuante02" src="./img/59118Azul.png">
+        </section>
 
-                <div class="education-02">
-                    <p class="date">Agosto 2021 - Julho 2024</p>
-                    <h3>Grad. Análise e Desenvolvimento de Sistemas</h3>
-                    <p class="school">IFPE - Paulista</p>
+        <section id="sobre-mim">
+            <div class="conteudo-sobre" data-aos="fade-left" data-aos-duration="3000">
+                <h1>SOBRE MIM</h1>
+
+                <p>Sou <span>Wilhams Gomes</span>, tenho 19 anos e moro em Recife-PE. <span>Desenvolvedor de Software</span>,
+                    apaixonado por tecnologia, principalmente pelo desenvolvimento de soluções. Gosto de aprender cada vez
+                    mais sobre a área, <span>desafios</span> que me tiram da minha zona de conforto são os melhores.</p>
+
+                <p> <span>Possuo experiência no desenvolvimento de aplicações</span> utilizando diferentes tecnologias,
+                    dentre elas Java Script, Java, Python e Banco de Dados.</p>
+
+                <div>
+                    <a href="./img/CV - Wilhams Gomes..pdf" target="_blank">
+                        <button class="botao-linkedin"> <img src="./img/download-cloud.png" /> Currículo </button>
+                    </a>
+
+                    <a href="mailto:wilhamsgoomes@gmail.com" target="_blank">
+                        <button class="botao-github"> <img src="./img/mail.png" /> E-mail </button>
+                    </a>
                 </div>
             </div>
-        </div>
+            <div id="photo" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="./img/Camada 0.png" alt="Wilhams" />
+            </div>
 
-        <div class="jobs" data-aos="fade-left" data-aos-duration="3000">
-            <div>
-                <h1>Experiências</h1>
-                <div class="education-01">
-                    <p class="date">Julho 2019 - Setembro de 2019</p>
-                    <h3>Desenvolvedor Back-end</h3>
-                    <p class="school">Trabalho voluntário | IV Sarau da ETEMB</p>
-                </div>
+        </section>
 
-                <div class="education-02">
-                    <p class="date">Julho 2021 - Até o momento</p>
-                    <h3>Designer gráfico</h3>
-                    <p class="school">Giz Midia | Freelancer</p>
+        <section id="skils">
+            <div class="barras-skis" data-aos="fade-left" data-aos-duration="3000">
+                <h1>HARD SKILLS</h1>
+                <div class="skill">
+                    <div class="lado-esquerdo-skils">
+                        <li>
+                            <p> HTML & CSS</p>
+                        <li class="bar"> <span class="html"></span> </li>
+                        </li>
+
+                        <li>
+                            <p> JavaScript </p>
+                        <li class="bar"><span class="css"> </span></li>
+                        </li>
+
+                        <li>
+                            <p> Vue.Js </p>
+                        <li class="bar"><span class="javascript"> </span></li>
+                        </li>
+                    </div>
+                    <div class="lado-direito-skils">
+                        <li>
+                            <p> Java </p>
+                        <li class="bar"> <span class="html"></span> </li>
+                        </li>
+
+                        <li>
+                            <p> Java </p>
+                        <li class="bar"><span class="css"> </span></li>
+                        </li>
+
+                        <li>
+                            <p> JavaScript </p>
+                        <li class="bar"><span class="javascript"> </span></li>
+                        </li>
+                    </div>
+
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="jobs">
+        <section id="experiencia">
 
-        </div>
+            <div class="education" data-aos="fade-left" data-aos-duration="3000">
+                <div>
+                    <h1>Educação</h1>
+                    <div class="education-01">
+                        <p class="date">Fevereiro 2018 - Dezembro 2020</p>
+                        <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                        <p class="school">ETE Miguel Batista</p>
+                    </div>
 
-    </section>
-
-    <section id="container">
-        <input type="radio" name="slider" id="item-1" checked>
-        <input type="radio" name="slider" id="item-2">
-        <input type="radio" name="slider" id="item-3">
-
-        <div class="cards">
-            <label class="card" for="item-1" id="song-1">
-                <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&                ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
-                    alt="song">
-            </label>
-
-            <label class="card" for="item-2" id="song-2">
-                <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
-                    alt="song">
-            </label>
-
-            <label class="card" for="item-3" id="song-3">
-                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-                    alt="song">
-            </label>
-        </div>
-
-        <div class="player">
-            <div class="upper-part">
-                <div class="play-icon">
-                    <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
-                        <defs />
-                        <path d="M5 3l14 9-14 9V3z" />
-                    </svg>
-                </div>
-                <div class="info-area" id="test">
-                    
-                    <label class="song-info" id="song-info-1">
-                        <div class="title">Bunker</div>
-                        <div class="sub-line">
-                            <div class="subtitle">Balthazar</div>
-                            <div class="time">100%</div>
-                        </div>
-                    </label>
-
-                    <label class="song-info" id="song-info-2">
-                        <div class="title">Words Remain</div>
-                        <div class="sub-line">
-                            <div class="subtitle">Moderator</div>
-                            <div class="time">100%</div>
-                        </div>
-                    </label>
-
-                    <label class="song-info" id="song-info-3">
-                        <div class="title">Falling Out</div>
-                        <div class="sub-line">
-                            <div class="subtitle">Otzeki</div>
-                            <div class="time">100%</div>
-                        </div>
-                    </label>
-                    
+                    <div class="education-02">
+                        <p class="date">Junho 2021 - Novembro 2021</p>
+                        <h3>Capacitação Front-End</h3>
+                        <p class="school">Start Latam/Accenture</p>
+                    </div>
                 </div>
             </div>
-            <div class="progress-bar">
-                <span class="progress"></span>
+
+            <div class="jobs" data-aos="fade-left" data-aos-duration="3000">
+                <div>
+                    <h1>Experiências</h1>
+                    <div class="education-01">
+                        <p class="date">Julho 2019 - Setembro de 2019</p>
+                        <h3>Desenvolvedor Back-end</h3>
+                        <p class="school">Trabalho voluntário | IV Sarau da ETEMB</p>
+                    </div>
+
+                    <div class="education-02">
+                        <p class="date">Abril de 2022 - Até o momento</p>
+                        <h3>Desenvolvedor Full Stack</h3>
+                        <p class="school">Single Point Technology | Desenvolvimento de aplicações CRM</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <div class="jobs">
+
+            </div>
+
+        </section>
+
+        <section id="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&                ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
+                        alt="song">
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+                        alt="song">
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                        alt="song">
+                </label>
+            </div>
+
+            <div class="player">
+                <div class="upper-part">
+                    <div class="play-icon">
+                        <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
+                            <defs />
+                            <path d="M5 3l14 9-14 9V3z" />
+                        </svg>
+                    </div>
+                    <div class="info-area" id="test">
+
+                        <label class="song-info" id="song-info-1">
+                            <div class="title">Bunker</div>
+                            <div class="sub-line">
+                                <div class="subtitle">Balthazar</div>
+                                <div class="time">100%</div>
+                            </div>
+                        </label>
+
+                        <label class="song-info" id="song-info-2">
+                            <div class="title">Words Remain</div>
+                            <div class="sub-line">
+                                <div class="subtitle">Moderator</div>
+                                <div class="time">100%</div>
+                            </div>
+                        </label>
+
+                        <label class="song-info" id="song-info-3">
+                            <div class="title">Falling Out</div>
+                            <div class="sub-line">
+                                <div class="subtitle">Otzeki</div>
+                                <div class="time">100%</div>
+                            </div>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <span class="progress"></span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+    </main>
 
     <script>
         AOS.init();

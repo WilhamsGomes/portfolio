@@ -62,6 +62,10 @@ li:hover{
     justify-content: space-between;
 }
 
+.img-modelo{
+    margin-bottom: -20px;
+}
+
 .titulos{
     margin-top: 150px;
     margin-left: 180px;
@@ -216,7 +220,7 @@ button img{
     display: flex;
     margin-top: -20px;
     height: 540px;
-    background-color: #121212;
+    background-color: #151515;
     color: white;
     overflow: hidden;
 }
@@ -254,12 +258,12 @@ button img{
 #experiencia::before{
     content: 'JOBS';
     position: absolute;
-    top: 150%;
+    top: 230%;
     left: 65%;
     font-weight: 800;
     font-size: 12em; 
-    color: #151515;
-    opacity: 0.7;
+    color: #121212;
+    opacity: 0.5;
 }
 
 .jobs{
@@ -279,11 +283,29 @@ button img{
     content: 'EDUCATION';
     position: absolute;
     top: 75%;
-    left: -40%;
+    left: -50%;
     font-weight: 800;
     font-size: 8em; 
-    color: #151515;
-    opacity: 0.7;
+    color: #121212;
+    opacity: 0.5;
+}
+
+#skils{
+    margin-top: -20px;
+    height: 550px;
+    background-color: #121212;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.barras-skis{
+    margin-left: 183px;
+}
+
+.barras-skis h1{
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 

@@ -1,0 +1,154 @@
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill p{
+    color:#C4C4C4;
+}
+
+.lado-esquerdo-skils{
+    margin-left: -150px;
+}
+
+.lado-direito-skils{
+    margin-right: 250px;
+}
+
+.bar{
+    height: 17px;
+    width: 250px;
+    background-image: linear-gradient(90deg, #10D7E2, #9358F7);
+    border-radius: 9px;
+}
+
+.html{
+    background-color: #6518B4;
+    width: 100%;
+    animation: html 3s ;
+    border-radius: 9px;
+}
+
+.css{
+    background-color: #6518B4;
+    width: 70%;
+    animation: css 3s;
+    border-radius: 9px;
+}
+
+.javascript{
+    background-color: #6518B4;
+    width: 80%;
+    animation: javascript 3s;
+    border-radius: 9px;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 150%;
+    }
+  
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.skill::after{
+    content: 'SOFT';
+    position: absolute;
+    top: -5%;
+    left: 70%;
+    font-weight: 800;
+    font-size: 10em; 
+    color: rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.skill::before{
+    content: 'SKILLS';
+    position: absolute;
+    top: 95%;
+    left: -15%;
+    font-weight: 800;
+    font-size: 10em; 
+    color: rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.img-flutuante{
+    position: absolute;
+    width: 180px;
+    left: 800px;
+    top: 150px;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+       top: 150px;
+    }
+
+    25%{
+        top: 200px;
+    }
+
+    50%{
+        top: 250px;
+    }
+
+    50%{
+        top: 250px;
+    }
+
+    100%{
+        top: 150px;
+    }
+}
+
+.img-flutuante02{
+    position: absolute;
+    width: 180px;
+    left: 1200px;
+    top: 250px;
+    animation: rotateBlue 5s linear infinite;
+}
+
+@keyframes rotateBlue {
+    0%{
+       top: 250px;
+    }
+
+    25%{
+        top: 300px;
+    }
+
+    50%{
+        top: 350px;
+    }
+
+    50%{
+        top: 350px;
+    }
+
+    100%{
+        top: 250px;
+    }
+}
