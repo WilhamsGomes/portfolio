@@ -1,0 +1,74 @@
+#experiencia{
+    display: flex;
+    margin-top: -20px;
+    height: 540px;
+    background-color: #151515;
+    color: white;
+    overflow: hidden;
+}
+
+
+.education{
+    padding-top: 80px;
+    margin-left: 183px;
+}
+
+.education h1{
+    margin-bottom: 50px;
+}
+
+.education h3{
+    color: #00D2DF;
+}
+
+.education-01, .education-02{
+    margin-bottom: 60px;
+}
+
+.education::before{
+    content: 'EDUCATION';
+    position: absolute;
+    top: 75%;
+    left: -50%;
+    font-weight: 800;
+    font-size: 8em; 
+    color: #121212;
+    opacity: 0.5;
+}
+
+.date{
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.school{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    z-index: 5;
+}
+
+#experiencia::before{
+    content: 'JOBS';
+    position: absolute;
+    top: 230%;
+    left: 65%;
+    font-weight: 800;
+    font-size: 12em; 
+    color: #121212;
+    opacity: 0.5;
+}
+
+.jobs{
+    padding-top: 80px;
+    margin-left: 250px;
+}
+
+.jobs h1{
+    margin-bottom: 50px;
+}
+
+.jobs h3{
+    color: #00D2DF;
+}

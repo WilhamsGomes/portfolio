@@ -6,12 +6,6 @@ body{
     padding: 0;
 }
 
-#inicial{
-    background-color: #121212;
-    margin-bottom: -20px;
-    overflow: hidden;
-}
-
 nav{
     z-index: 2;
     position: fixed;
@@ -21,12 +15,6 @@ nav{
     color:#C4C4C4;
     background-color: #121212;
     width: 100%;
-}
-
-.titulo{
-    color: #00D2DF;
-    font-size: 18px;
-    margin-left: 180px;
 }
 
 ul{
@@ -49,56 +37,9 @@ li:hover{
     transition: 1.5s;
 }
 
-#inicial hr{
-    width: 1080px;
-    height: 0px;
-    border: 2px solid #151515;
-    display: flex;
-    justify-content: center;
-}
-
-.tela_inicial{
-    display: flex;
-    justify-content: space-between;
-}
 
 .img-modelo{
     margin-bottom: -20px;
-}
-
-.titulos{
-    margin-top: 150px;
-    margin-left: 180px;
-    line-height: 5px;
-}
-
-.titulos p{
-    font-size: 20px;
-    color: white;
-}
-
-.titulos h1{
-    height: 10px;
-    font-size: 55px;
-    color: #00D2DF;
-}
-
-.titulos h1::before{
-    content: '';
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    width: 350px;
-    height: 5px;
-    border-radius: 15px;
-    border: none;
-    background-color: #7DC7dE;
-}
-
-#descricao-title{
-    line-height: 25px;
-    font-weight: 400;
-    font-size: 14px;
 }
 
 button{
@@ -126,186 +67,3 @@ button img{
     margin-top: -5px;
     margin-left: -40px;
 }
-
-.botao-linkedin{
-    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
-    margin-right: 20px;
-}
-
-.botao-linkedin:hover{
-    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
-    transition: 1s;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-.botao-github{
-    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
-}
-
-.botao-github:hover{
-    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
-    transition: 1s;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-#sobre-mim{
-    overflow: hidden;
-    display: flex;
-    color: white;
-    height: 550px;
-    background-color: #151515;
-}
-
-#photo{
-    width: 300px;
-    height: 300px;
-    margin-left: 200px;
-    margin-top: 120px;
-    border-radius: 50%;
-    box-shadow: 0 0 2em #6518B4;
-}
-
-#photo img{
-    width: 300px;
-    height: 300px;
-}
-
-#photo img:hover{
-    cursor: pointer;
-    opacity: 0.7;
-    transition: 1.5s;
-}
-
-.conteudo-sobre{
-    margin-left: 183px;
-    margin-top: 80px;
-    line-height: 29px;
-}
-
-.conteudo-sobre h1{
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.conteudo-sobre h3{
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.conteudo-sobre p{
-    width: 600px;
-    font-weight: 500;
-    text-align: justify;
-    color:#C4C4C4;
-}
-
-.conteudo-sobre span{
-    color: #00D2DF;
-}
-
-.conteudo-sobre::after{
-    content: 'ABOUT';
-    position: absolute;
-    bottom: 90%;
-    left: 110%;
-    font-weight: 800;
-    font-size: 12em;
-    color: rgba(0, 0, 0, 0.1);
-    opacity: 0.7;
-}
-
-#experiencia{
-    display: flex;
-    margin-top: -20px;
-    height: 540px;
-    background-color: #151515;
-    color: white;
-    overflow: hidden;
-}
-
-.education{
-    padding-top: 80px;
-    margin-left: 183px;
-}
-
-.education h1{
-    margin-bottom: 50px;
-}
-
-.education h3{
-    color: #00D2DF;
-}
-
-.date{
-    color: rgb(201, 201, 201);
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.school{
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(201, 201, 201);
-    z-index: 5;
-}
-
-.education-01, .education-02{
-    margin-bottom: 60px;
-}
-
-#experiencia::before{
-    content: 'JOBS';
-    position: absolute;
-    top: 230%;
-    left: 65%;
-    font-weight: 800;
-    font-size: 12em; 
-    color: #121212;
-    opacity: 0.5;
-}
-
-.jobs{
-    padding-top: 80px;
-    margin-left: 250px;
-}
-
-.jobs h1{
-    margin-bottom: 50px;
-}
-
-.jobs h3{
-    color: #00D2DF;
-}
-
-.education::before{
-    content: 'EDUCATION';
-    position: absolute;
-    top: 75%;
-    left: -50%;
-    font-weight: 800;
-    font-size: 8em; 
-    color: #121212;
-    opacity: 0.5;
-}
-
-#skils{
-    margin-top: -20px;
-    height: 550px;
-    background-color: #121212;
-    color: #FFF;
-    overflow: hidden;
-}
-
-.barras-skis{
-    margin-left: 183px;
-}
-
-.barras-skis h1{
-    padding-top: 80px;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-

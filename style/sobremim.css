@@ -1,0 +1,88 @@
+#sobre-mim{
+    overflow: hidden;
+    display: flex;
+    color: white;
+    height: 550px;
+    background-color: #151515;
+}
+
+.conteudo-sobre{
+    margin-left: 183px;
+    margin-top: 80px;
+    line-height: 29px;
+}
+
+.conteudo-sobre h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.conteudo-sobre h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.conteudo-sobre p{
+    width: 600px;
+    font-weight: 500;
+    text-align: justify;
+    color:#C4C4C4;
+}
+
+.conteudo-sobre span{
+    color: #00D2DF;
+}
+
+.conteudo-sobre::after{
+    content: 'ABOUT';
+    position: absolute;
+    bottom: 90%;
+    left: 110%;
+    font-weight: 800;
+    font-size: 12em;
+    color: rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+}
+
+.botao-linkedin{
+    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
+    margin-right: 20px;
+}
+
+.botao-linkedin:hover{
+    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
+    transition: 1s;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.botao-github{
+    border-image: linear-gradient(90deg, #D24074, #6518B4 100%) 1;
+}
+
+.botao-github:hover{
+    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
+    transition: 1s;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#photo{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 2em #6518B4;
+}
+
+#photo img{
+    width: 300px;
+    height: 300px;
+}
+
+#photo img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1.5s;
+}

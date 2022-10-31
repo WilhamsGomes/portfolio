@@ -8,7 +8,7 @@
 }
 
 .lado-esquerdo-skils{
-    margin-left: -150px;
+    margin-left: -120px;
 }
 
 .lado-direito-skils{
@@ -16,10 +16,9 @@
 }
 
 .bar{
-    height: 17px;
-    width: 250px;
-    background-image: linear-gradient(90deg, #10D7E2, #9358F7);
-    border-radius: 9px;
+    height: 13px;
+    width: 300px;
+    border-radius: 12px;
 }
 
 .html{
@@ -29,28 +28,21 @@
     border-radius: 9px;
 }
 
-.css{
-    background-color: #6518B4;
-    width: 70%;
-    animation: css 3s;
-    border-radius: 9px;
-}
-
-.javascript{
-    background-color: #6518B4;
-    width: 80%;
-    animation: javascript 3s;
-    border-radius: 9px;
-}
-
 @keyframes html {
     0%{
         width: 0%;
     }
     100%{
-        width: 150%;
+        width: 100%;
     }
   
+}
+
+.css{
+    background-color: #6518B4;
+    width: 90%;
+    animation: css 3s;
+    border-radius: 9px;
 }
 
 @keyframes css {
@@ -58,8 +50,15 @@
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 90%;
     }
+}
+
+.javascript{
+    background-color:  #6518B4;
+    width: 80%;
+    animation: javascript 3s;
+    border-radius: 9px;
 }
 
 @keyframes javascript {
@@ -71,10 +70,90 @@
     }
 }
 
+.vuejs{
+    background-color:  #6518B4;
+    width: 75%;
+    animation: vuejs 3s;
+    border-radius: 9px;
+}
+
+@keyframes vuejs {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.java{
+    background-color:  #00D2DF;
+    width: 100%;
+    animation: java 3s;
+    border-radius: 9px;
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.groovy{
+    background-color:  #00D2DF;
+    width: 90%;
+    animation: groovy 3s;
+    border-radius: 9px;
+}
+
+@keyframes groovy {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.spring{
+    background-color:  #00D2DF;
+    width: 70%;
+    animation: spring 3s;
+    border-radius: 9px;
+}
+
+@keyframes spring {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.sql{
+    background-color:  #00D2DF;
+    width: 90%;
+    animation: sql 3s;
+    border-radius: 9px;
+}
+
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
 .skill::after{
     content: 'SOFT';
     position: absolute;
-    top: -5%;
+    top: -15%;
     left: 70%;
     font-weight: 800;
     font-size: 10em; 
@@ -85,70 +164,10 @@
 .skill::before{
     content: 'SKILLS';
     position: absolute;
-    top: 95%;
+    top: 85%;
     left: -15%;
     font-weight: 800;
     font-size: 10em; 
     color: rgba(0, 0, 0, 0.1);
     opacity: 0.8;
-}
-
-.img-flutuante{
-    position: absolute;
-    width: 180px;
-    left: 800px;
-    top: 150px;
-    animation: rotate 5s linear infinite;
-}
-
-@keyframes rotate {
-    0%{
-       top: 150px;
-    }
-
-    25%{
-        top: 200px;
-    }
-
-    50%{
-        top: 250px;
-    }
-
-    50%{
-        top: 250px;
-    }
-
-    100%{
-        top: 150px;
-    }
-}
-
-.img-flutuante02{
-    position: absolute;
-    width: 180px;
-    left: 1200px;
-    top: 250px;
-    animation: rotateBlue 5s linear infinite;
-}
-
-@keyframes rotateBlue {
-    0%{
-       top: 250px;
-    }
-
-    25%{
-        top: 300px;
-    }
-
-    50%{
-        top: 350px;
-    }
-
-    50%{
-        top: 350px;
-    }
-
-    100%{
-        top: 250px;
-    }
 }

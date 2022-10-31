@@ -1,0 +1,17 @@
+#skils{
+    margin-top: -20px;
+    height: 550px;
+    background-color: #121212;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.barras-skis{
+    margin-left: 183px;
+}
+
+.barras-skis h1{
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 24px;
+}

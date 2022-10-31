@@ -21,6 +21,7 @@ input[type=radio] {
   margin: auto;
   transition: transform .4s ease;
   cursor: pointer;
+  
 }
 
 #container {
@@ -41,6 +42,7 @@ input[type=radio] {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .cards {
@@ -78,7 +80,7 @@ input[type=radio] {
 }
 
 .player {
-  background-color: #fff;
+  background-color: #00D2DF;
   border-radius: 8px;
   min-width: 320px;
   padding: 16px 10px;
@@ -93,7 +95,7 @@ input[type=radio] {
   overflow: hidden;
 }
 
-.play-icon{ margin-right: 10px; }
+
 
 .song-info {
   width: calc(100% - 32px);
@@ -101,7 +103,7 @@ input[type=radio] {
 }
 
 .song-info .title {
-  color: #403d40;
+  color: white;
   font-size: 14px;
   line-height: 24px;
 }
@@ -115,7 +117,7 @@ input[type=radio] {
 .subtitle, .time {
   font-size: 12px;
   line-height: 16px;
-  color: #c6c5c6;
+  color: white;
 }
 
 .time {
@@ -129,7 +131,7 @@ input[type=radio] {
 .progress-bar {
   height: 3px;
   width: 100%;
-  background-color: #e9efff;
+  background-color: #9358F7;
   border-radius: 2px;
   overflow: hidden;
 }
@@ -139,7 +141,7 @@ input[type=radio] {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color:#00D2DF;
+  background-color:#9358F7;
   border-radius: 6px;
 }
 
@@ -147,7 +149,7 @@ input[type=radio] {
   width: 100%;
   position: absolute;
   top: 0;
-  left: 30px;
+  left: 10px;
   transition: transform .4s ease-in;
 }
 
@@ -166,7 +168,7 @@ input[type=radio] {
 #container::after{
     content: 'PROJECTS';
     position: absolute;
-    top: 75%;
+    top: 90%;
     left: 0%;
     font-weight: 800;
     font-size: 8em; 
