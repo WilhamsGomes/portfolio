@@ -1,17 +1,7 @@
-nav{
-    height: 80px;
-}
- 
 #inicial{
     background-color: #121212;
     margin-bottom: -20px;
     overflow: hidden;
-}
-
-.titulo{
-    color: #00D2DF;
-    font-size: 18px;
-    margin-left: 180px;
 }
 
 .titulos{
@@ -51,6 +41,12 @@ nav{
 
 .buttons{
     display: flex;
+}
+
+ul button{
+    width: 60px;
+    background-color: transparent;
+    border: 0;
 }
 
 
@@ -295,7 +291,7 @@ header nav li.estilo:hover::before {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: -40px;
+        margin-top: -120px;
     }
 
     .titulos {

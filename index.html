@@ -20,9 +20,12 @@
     <link rel="stylesheet" type="text/css" href="./style/barra.css" />
     <link rel="icon" type="image/x-icon" href="./img/Logo-Will.png">
 
+    <link rel="stylesheet" type="text/css" href="./style/navbar.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 
     <script src="https://kit.fontawesome.com/48764efa36.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,7 +41,7 @@
             <header>
                 <nav>
                     <p class="titulo">Portfólio</p>
-                    <ul>
+                    <ul class="menus">
                         <a href="#">
                             <li  data-aos="fade-left" data-aos-duration="1750" class="estilo">Início</li>
                         </a>
@@ -55,7 +58,30 @@
                             <li  data-aos="fade-left" data-aos-duration="2750" class="estilo">Projetos</li>
                         </a>
                     </ul>
+                    <button class="nav-button" onclick="openNav()">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </button>
                 </nav>
+                <div id="navBar-responsivo">
+                    <div id="menu-responsivo">
+                        <a href="#">
+                            <li  class="navBarMenuRes">Início</li>
+                        </a>
+                        <a href="#sobre-mim">
+                            <li class="navBarMenuRes">Sobre mim</li>
+                        </a>
+                        <a href="#container">
+                            <li class="navBarMenuRes">Conhecimentos</li>
+                        </a>
+                        <a href="#experiencia">
+                            <li class="navBarMenuRes">Experiência</li>
+                        </a>
+                        <a href="#container">
+                            <li class="navBarMenuRes">Projetos</li>
+                        </a>
+                    </div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
             </header>
             <img class="img-flutuante" src="./img/59118.png">
 

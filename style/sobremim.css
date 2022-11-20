@@ -4,6 +4,7 @@
     color: white;
     height: 550px;
     background-color: #151515;
+    z-index: 150;
 }
 
 .conteudo-sobre{
