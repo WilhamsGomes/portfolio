@@ -25,6 +25,7 @@
     margin-bottom: 60px;
 }
 
+/*
 .education::before{
     content: 'EDUCATION';
     position: absolute;
@@ -35,6 +36,17 @@
     color: #121212;
     opacity: 0.5;
 }
+
+#experiencia::before{
+    content: 'JOBS';
+    position: absolute;
+    top: 230%;
+    left: 65%;
+    font-weight: 800;
+    font-size: 12em; 
+    color: #121212;
+    opacity: 0.5;
+} */
 
 .date{
     color: rgb(201, 201, 201);
@@ -47,17 +59,6 @@
     font-size: 14px;
     color: rgb(201, 201, 201);
     z-index: 5;
-}
-
-#experiencia::before{
-    content: 'JOBS';
-    position: absolute;
-    top: 230%;
-    left: 65%;
-    font-weight: 800;
-    font-size: 12em; 
-    color: #121212;
-    opacity: 0.5;
 }
 
 .jobs{

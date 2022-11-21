@@ -4,9 +4,12 @@
     background-color: #121212;
     color: #FFF;
     overflow: hidden;
+    padding-bottom: 80px;
 }
 
 .barras-skis{
+    display: flex;
+    align-items: center;
     margin-left: 183px;
 }
 
@@ -14,4 +17,104 @@
     padding-top: 80px;
     font-weight: 600;
     font-size: 24px;
+}
+
+.cards-habilidades{
+    padding-top: 80px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle-conhecimento{
+    width: 450px;
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+.habilidades{
+    width: 450px;
+    height: 250px;
+    overflow-y: auto;
+    margin-bottom: 80px;
+}
+
+.span-hablidade{
+    height: 3px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) ;
+}
+
+#html-span{
+    width: 80%;
+}
+
+#css-span{
+    width: 70%;
+}
+
+#js-span{
+    width: 75%;
+}
+
+#vue-span{
+    width: 68%;
+}
+
+#node-span{
+    width: 60%;
+}
+
+#react-span{
+    width: 60%;
+}
+
+#java-span{
+    width: 70%;
+}
+
+#groovy-span{
+    width: 65%;
+}
+
+#sql-span{
+    width: 75%;
+}
+
+.card-habilidade{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    height: 170px;
+    width: 170px;
+    background-color: #151515;
+    color: #fff;
+    margin-top: 20px;
+    transition: all 1.5s;
+
+}
+
+.card-habilidade:hover{
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
+}
+
+.base-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) ;
+}
+
+.base-img img{
+    width: 70%;
+    height: 70%;
+    margin-top: 15px;
 }

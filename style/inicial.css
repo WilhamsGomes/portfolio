@@ -5,7 +5,6 @@
 }
 
 .titulos{
-    margin-top: 150px;
     margin-left: 180px;
     line-height: 5px;
 }
@@ -24,7 +23,7 @@
 .titulos h1::before{
     content: '';
     position: absolute;
-    top: 22%;
+    top: 110px;
     left: 25%;
     width: 350px;
     height: 5px;
@@ -36,7 +35,7 @@
 .tela_inicial{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    align-items: center;
 }
 
 .buttons{
@@ -291,7 +290,7 @@ header nav li.estilo:hover::before {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: -120px;
+        margin-top: 30px
     }
 
     .titulos {
