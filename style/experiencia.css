@@ -7,69 +7,62 @@
     overflow: hidden;
 }
 
-
-.education{
-    padding-top: 80px;
+.options-experiencias{
     margin-left: 183px;
+    margin-top: 80px;
 }
 
-.education h1{
-    margin-bottom: 50px;
+.options-experiencias h1{
+    text-transform: uppercase;
 }
 
-.education h3{
-    color: #00D2DF;
+.descricao-experiencia{
+    margin: 0px 120px 0px 40px;
 }
 
-.education-01, .education-02{
-    margin-bottom: 60px;
+.dados-experiencia{
+    display: flex;
+    justify-content: center;
 }
 
-/*
-.education::before{
-    content: 'EDUCATION';
-    position: absolute;
-    top: 75%;
-    left: -50%;
-    font-weight: 800;
-    font-size: 8em; 
-    color: #121212;
-    opacity: 0.5;
+.periodo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-#experiencia::before{
-    content: 'JOBS';
-    position: absolute;
-    top: 230%;
-    left: 65%;
-    font-weight: 800;
-    font-size: 12em; 
-    color: #121212;
-    opacity: 0.5;
-} */
-
-.date{
-    color: rgb(201, 201, 201);
-    font-size: 16px;
-    font-weight: bold;
+#cargo-experiencia{
+    color: #10D7E2;
 }
 
-.school{
+.text-experiencia{
+    margin-top: 35px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    color: #C4C4C4;
     font-weight: 400;
-    font-size: 14px;
-    color: rgb(201, 201, 201);
-    z-index: 5;
 }
 
-.jobs{
-    padding-top: 80px;
-    margin-left: 250px;
+.titles{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 90px;
+    width: 220px;
+    background-color: #121212;
+    margin-top: 1px;
+    font-size: 18px;
 }
 
-.jobs h1{
-    margin-bottom: 50px;
+.titles:hover{
+    cursor: pointer;
 }
 
-.jobs h3{
-    color: #00D2DF;
+.activeExperience{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #9358F7, #10D7E2 100%) 1;
+    color: #10D7E2;
 }

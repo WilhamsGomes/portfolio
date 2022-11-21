@@ -54,7 +54,7 @@
                         <a href="#experiencia">
                             <li  data-aos="fade-left" data-aos-duration="2500" class="estilo">Experiência</li>
                         </a>
-                        <a href="#container">
+                        <a href="#projetos">
                             <li  data-aos="fade-left" data-aos-duration="2750" class="estilo">Projetos</li>
                         </a>
                     </ul>
@@ -194,57 +194,50 @@
 
         <section id="experiencia">
 
-            <div class="education" data-aos="fade-left" data-aos-duration="3000">
-                <div>
-                    <h1>Educação</h1>
-                    <div class="education-01">
-                        <p class="date">Fevereiro 2018 - Dezembro 2020</p>
-                        <h3>Técnico em Desenvolvimento de Sistemas</h3>
-                        <p class="school">ETE Miguel Batista</p>
+            <div class="options-experiencias" data-aos="fade-right" data-aos-duration="3000">
+                <h1>Experiência</h1>
+                <div class="dados-experiencia">
+                    <div>
+                        <div class="titles activeExperience" id="singlePoint" onclick="onActiveClass('singlePoint')">Single Point Technology</div>
+                        <div class="titles" id="redeCidada" onclick="onActiveClass('redeCidada')" >Rede Cidadã</div>
+                        <div class="titles" id="etemb" onclick="onActiveClass('etemb')">ETE Miguel Batista</div>
                     </div>
-
-                    <div class="education-02">
-                        <p class="date">Junho 2021 - Novembro 2021</p>
-                        <h3>Capacitação Front-End</h3>
-                        <p class="school">Start Latam/Accenture</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="jobs" data-aos="fade-left" data-aos-duration="3000">
-                <div>
-                    <h1>Experiências</h1>
-                    <div class="education-01">
-                        <p class="date">Julho 2019 - Setembro de 2019</p>
-                        <h3>Desenvolvedor Back-end</h3>
-                        <p class="school">Trabalho voluntário | IV Sarau da ETEMB</p>
-                    </div>
-
-                    <div class="education-02">
-                        <p class="date">Abril de 2022 - Outubro de 2022</p>
-                        <h3>Desenvolvedor Full Stack</h3>
-                        <p class="school">Single Point Technology | Desenvolvimento de aplicações CRM</p>
+                    <div class="descricao-experiencia">
+                        <div class="periodo">
+                            <h3 id="titulo-experiencia">Desenvolvedor Full Stack</h3>
+                            <p id="periodo-experiencia">Abril de 2022 - Outubro de 2022</p>
+                        </div>
+                        <span id="cargo-experiencia">Single Point Technology</span>
+                        <p class="text-experiencia">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="jobs">
-
             </div>
 
         </section>
 
         <section id="projetos">
 
-            <details>
-                <summary>Plataforma de análise de desempenho da Seleção Brasileira de Futebol</summary>
-                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-                <img src="./img/analisedesempenho.png">
-            </details>
+           <h1>Projetos</h1>
+           <div class="conteiner-projetos">
+                <div class="card-projetos">
+                    <h3>Análise de desempenho</h3>
+                    <p>Plataforma de análise de desempenho da Seleção Brasileira de Futebol antes da Copa do Mundo 2022. Desenvolvida em <span>Vue.js</span> e <span>Spring Boot</span>.</p>
+                    <a href="https://github.com/WilhamsGomes/analise-desempenho" target="_blank" class="button-projeto">visualizar projeto</a>
+                </div>
+                <div class="card-projetos">
+                    <h3>Delivery Pizzaria</h3>
+                    <p>Site de delivery para pizzaria com opções disponíveis e carrinho, direcionando o cliente para o WhatsApp. Desenvolvido em <span>HTML, CSS</span> e <span>JavaScript</span>.</p>
+                    <a href="https://github.com/WilhamsGomes/Pizzaria" target="_blank" class="button-projeto">visualizar projeto</a>
+                </div>
+                <div class="card-projetos">
+                    <h3>Pokédex</h3>
+                    <p>Projeto consumindo API do Pokémon através do Axios, retornando 150 pokémons para o site. Desenvolvido em <span>Vue.js</span> </p>
+                    <a href="https://github.com/WilhamsGomes/Pokedex-Vue" target="_blank" class="button-projeto">visualizar projeto</a>
+                </div>
+           </div>
             
         </section>
 
-        
     </main>
 
     <script>

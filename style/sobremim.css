@@ -1,10 +1,12 @@
 #sobre-mim{
+    position: relative;
     overflow: hidden;
     display: flex;
     color: white;
     height: 550px;
     background-color: #151515;
-    z-index: 150;
+    z-index: 10;
+    margin-top: -50px;
 }
 
 .conteudo-sobre{

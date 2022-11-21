@@ -1,4 +1,5 @@
 #inicial{
+    position: relative;
     background-color: #121212;
     margin-bottom: -20px;
     overflow: hidden;
@@ -30,6 +31,11 @@
     border-radius: 15px;
     border: none;
     background-color: #7DC7dE;
+}
+
+.img-modelo{
+    z-index: 1;
+
 }
 
 .tela_inicial{
@@ -270,10 +276,6 @@ header nav li.estilo:hover::before {
     .titulos{
         margin-left: 60px;
         margin-bottom: 50px;
-    }
-
-    .img-modelo{
-        width: 80%;
     }
 
     .img-modelo{
