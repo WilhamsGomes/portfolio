@@ -1,6 +1,5 @@
 #skils{
     margin-top: -20px;
-    height: 550px;
     background-color: #121212;
     color: #FFF;
     overflow: hidden;
@@ -118,4 +117,79 @@
     width: 70%;
     height: 70%;
     margin-top: 15px;
+}
+
+
+@media screen and (max-width: 889px) {
+
+    .barras-skis{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    }
+
+    .barras-skis{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .barras-skis h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cards-habilidades{
+        margin-top: -150px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+
+}
+
+@media screen and (min-width: 890px) and (max-width: 1200px){
+
+    .barras-skis{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+     }
+ 
+     .barras-skis{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 10px;
+         margin-top: 20px;
+     }
+     
+     .barras-skis h1{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     .cards-habilidades{
+         margin-top: -10px;
+         margin-left: 10px;
+         display: flex;
+         align-items: center;
+     }
+
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1201px){
+
+    .cards-habilidades{
+        margin-top: -10px;
+        margin-left: 100px;
+    }
+
 }

@@ -37,16 +37,27 @@ li:hover{
     transition: 1.5s;
 }
 
-
 #navBar-responsivo{
     display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151511;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    position: fixed;
+    opacity: 0.99;
+    overflow: hidden;
+    transition: all 0.5s;
 }
 
 .nav-button{
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
     li{
         font-weight: 500;
@@ -79,33 +90,24 @@ li:hover{
         margin-right: 180px;
     }
 
-    #navBar-responsivo{
-        background-color: #151511;
-        border: 4px solid transparent;
-        border-image: linear-gradient(90deg, #9358F7, #10D7E2 100%) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
-        margin-top: 60px;
-        top: 0;
-        width: 150px;
-    
-        z-index: 150;
-    
-        position: fixed;
-    
-        overflow-x: hidden;
-        transition: all 0.5s;
-    }
-
     .closebtn{
-        right: 0;
+        font-size: 60px;
+        margin-left: 90%;
+        margin-top: -20%;
     }
 
     #menu-responsivo{
-        margin: 25px 0px 15px 10px;
+        text-transform: uppercase;
+        font-size: 80px;
+        margin: 100px 0px 15px 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 8px;
+    }
+
+    #menu-responsivo a li{
+        font-size: 40px;
+        line-height: 60px;
     }
 }

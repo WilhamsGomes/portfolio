@@ -1,10 +1,10 @@
 #experiencia{
     display: flex;
     margin-top: -20px;
-    height: 540px;
     background-color: #151515;
     color: white;
     overflow: hidden;
+    padding-bottom: 80px;
 }
 
 .options-experiencias{
@@ -65,4 +65,62 @@
     border-left: 4px solid;
     border-image: linear-gradient(180deg, #9358F7, #10D7E2 100%) 1;
     color: #10D7E2;
+}
+
+
+@media screen and (max-width: 839px) {
+
+    .dados-experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .options-experiencias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .descricao-experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .periodo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 840px){
+
+    .descricao-experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start
+    }
+
+    .periodo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start
+    }
+
+    .titles{
+        height: 150px;
+        width: 220px;
+    }
+
 }

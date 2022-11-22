@@ -1,5 +1,4 @@
 #projetos{
-    height: 450px;
     background-color: #121212;
     color: #fff;
     margin-top: -20px;
@@ -51,4 +50,34 @@
 .card-projetos a:hover{
    border-bottom: 3px solid;
    border-image: linear-gradient(90deg, #121212, #10D7E2 100%) 1;
+}
+
+@media screen and (max-width: 940px) {
+    
+    .conteiner-projetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #projetos h1{
+       margin-left: 0px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) and (min-width:941px){
+    
+
+    #projetos h1{
+       margin-left: 0px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
 }

@@ -234,7 +234,7 @@ header nav li.estilo:hover::before {
     
 }
 
-@media screen and (max-width: 989px) and (min-width: 701){
+@media screen and (max-width: 989px) and (min-width: 801px){
 
 
     #descricao-title{
@@ -264,17 +264,15 @@ header nav li.estilo:hover::before {
     }
 
     .img-flutuante{
-        display: none;
-        left: 500px;
+        left: 450px;
     }
 
     .img-flutuante02{
-        display: none;
-        left: 750px;
+        left: 550px;
     }
 
     .titulos{
-        margin-left: 60px;
+        margin-left: 30px;
         margin-bottom: 50px;
     }
 
@@ -285,7 +283,7 @@ header nav li.estilo:hover::before {
     
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
     .tela_inicial{
         display: flex;
