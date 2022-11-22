@@ -142,6 +142,13 @@
         align-items: center;
         justify-content: center;
     }
+
+    
+    .subtitle-conhecimento{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 80%;
+    }
     
     .cards-habilidades{
         margin-top: -150px;
