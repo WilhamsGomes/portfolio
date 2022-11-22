@@ -37,7 +37,7 @@
     color: #10D7E2;
 }
 
-.text-experiencia{
+#text-experiencia{
     margin-top: 35px;
     text-align: justify;
     font-size: 18px;
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
-    height: 90px;
+    height: 70px;
     width: 220px;
     background-color: #121212;
     margin-top: 1px;
