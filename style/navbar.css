@@ -82,7 +82,7 @@ li:hover{
         display: flex;
         border: 0;
         background-color: transparent;
-        
+        margin-bottom: 10px;
     }
 
     ul {
